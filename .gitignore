@@ -1,0 +1,20 @@
+# Configuración privada
+include/config.h
+.env
+.env.*
+secrets.yaml
+**/secrets.yaml
+*.key
+*.pem
+# Compilación y datos privados
+.pio/
+.vscode/
+*.bin
+*.elf
+*.log
+capturas/
+*.jpg
+*.jpeg
+*.png
+.DS_Store
+Thumbs.db
